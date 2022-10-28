@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+       <div id="contenedor">
+            <div id="formulario">
+                <!-- FORMULARIO  -->
+                <div class="contenido">
+                    <h1 style="color: rgba(5, 37, 3, 0.74);">Hidratación Basal</h1>
+                    <p id="error">Ingrese el peso en kg</p>
+                    <input id="datito" type="number" placeholder="Introducir dato" >
+                    <p>* Debe completar todos los datos</p>
+                    <button id="CALCULAR">CALCULAR</button>
+                    <p id="flu"></p>
+                    <p id="mantenimiento"></p>
+                    <p id="volumen"></p>
+                    <p id="volumen2"></p>
+                    <p id="flujohor"></p>
+                    <p id="mantenimiento2"></p>
+                    <p id="auxi"></p>
+
+                    <!-- NO ESTOY MUY SEGURA BUT   -->
+                </div>
+            </div>
+
+            <!-- DETALLE COMENTARIO DE RECUERDO  -->
+        <div id="detalle">
+              <div class="contenido">
+                <h1>¿Como se calcula?</h1>
+                <ul>
+                    <li> De 0kg a 10kg, se calcula 100cc por cada kilo.</li>
+                    <li> Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20kg.</li>
+                    <li> De 20kg para arriba, se suman 20cc por cada kilo adicional</li>
+                    <li> Finalmente, para pacientes con peso mayor a 30, se calcula por SC: SC * 1500 
+                                                                                            SC * 2000</li>
+                
+              </div>
+            </ul>
+        </div>
+     </div>
+    </body>
+
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body {
+    background-color: rgb(176, 180, 180);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+  #contenedor{
+    background-color: white;
+    width: 900px;
+    height: 500px;
+    /* Para recordar, estas lineas se encargan de centrar el div vertical y horizontalmente */
+    /* position - inset - margin */ 
+    /* inset es una forma de asignar el mismo valor a los 4 margenes */
+
+    position: absolute;
+    inset: 0;
+    margin: auto;
+   
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+
+  }
+  #formulario {
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+
+  #detalle{
+    background-color: rgb(248, 9, 156);
+    color: white;
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+
+
+  .contenido {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    overflow: hidden;
+
+  }
+  input{
+    background-color: aqua;
+    padding: 10px 15px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 70%;
+    margin-bottom: 15px;
+
+  }
+  button{
+    padding: 12px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    font-family: 'Montserrat', sans-serif;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    letter-spacing: 1px;
+  }
+  button :active {
+    transform: scale(0.95);
+
+  }
+  #volumen{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #volumen2{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #mantenimiento{
+    color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #mantenimiento2{
+    color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #flujhora{
+    color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #flujo{
+    color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+  }
