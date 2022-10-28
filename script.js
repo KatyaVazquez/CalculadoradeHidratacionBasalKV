@@ -22,16 +22,16 @@ CALCULAR.addEventListener('click', () => {
         let flujo = flu1/24;
         let mantenimiento = flujo*1.5;
         //el innerHTML es parte del Modelo de (DOM) y se utiliza para establecer o devolver el contenido HTML de un elemento.// 
-        VOLUMEN.innerHTML = flu1 + 'cc/h diario';
+        VOLUMEN.innerHTML = flu1 + 'cc/h' + 'diario';
         MANTENIMIENTO.innerHTML = ' m+m/2= '  + mantenimiento  +  ' cc/hr ';
         FLUJO.innerHTML = flujo + ' cc/hr ';
         FLUJO.style.display = 'block';
         VOLUMEN.style.display = 'block';
         MANTENIMIENTO.style.display = 'block';
-        // aqui
+        //Me divague un montón pero lo iré mejorando
     
     } else {
-        //En style se declara la const 
+        //En style se declara la const block muestra, none pa qué no se vea
         ERROR.style.display = 'block';
         FLUJO.style.display = 'none';
         VOLUMEN.style.display = 'none';
@@ -78,6 +78,7 @@ function calcFlujo(datito){
     return flu1;
 };
 function calcularSC(datito){
+    // nuestro dato nos leía como caracter, entonces procedemos a realizar la sgt solución
     datito=Number(datito);
     let volumen = 0;
     let volumen2 = 0;
