@@ -22,7 +22,7 @@ CALCULAR.addEventListener('click', () => {
         let flujo = flu1/24;
         let mantenimiento = flujo*1.5;
         //el innerHTML es parte del Modelo de (DOM) y se utiliza para establecer o devolver el contenido HTML de un elemento.// 
-        VOLUMEN.innerHTML = flu1 + 'diario';
+        VOLUMEN.innerHTML = flu1 + 'cc/h diario';
         MANTENIMIENTO.innerHTML = ' m+m/2= '  + mantenimiento  +  ' cc/hr ';
         FLUJO.innerHTML = flujo + ' cc/hr ';
         FLUJO.style.display = 'block';
