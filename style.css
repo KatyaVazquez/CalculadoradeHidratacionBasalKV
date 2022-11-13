@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body {
+  height: 500px;
+  background-image: url("https://th.bing.com/th/id/R.31b07d69e0434e61fdd926b284e3b3d5?rik=ntc1briQDNp7nQ&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
 
 body {
     background-color: rgb(176, 180, 180);
